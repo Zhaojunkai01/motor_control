@@ -13,7 +13,7 @@ end = 0
 binary = 0
 
 while True:
-    vari = [0xff, 0xff, 0x02, 0x03, 0x0d, 0, 0]
+    vari = [0xff, 0xff, 0x02, 0x03, 0x0d, 0, 0] # 更改电机转速
     if keyboard.is_pressed('w'):
         time.sleep(0.3)
         print('\n w is pressed')
